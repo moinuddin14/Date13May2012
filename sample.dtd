@@ -1,0 +1,7 @@
+<!ELEMENT message (email,letter)>
+<!ELEMENT header (tolist|subject)>
+<!ELEMENT body (content , signature)>
+ 
+
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE message [
+<!ELEMENT message (emol)>
+<!ELEMENT header (tolist|subject)>
+<!ELEMENT body (content , signature)>
+]>
+
+<message>
+<email>
+<header>
+<tolist>
+Srikanth,Shekar,Sirisha
+</tolist>
+<subject>
+This is Test Message Subject
+</subject>
+</header>
+<body>
+<content>
+This is Test Message
+</content>
+<signature>
+Regards,Srikanth Vejendla
+</signature>
+</body>
+</email>
+</message>
